@@ -1,0 +1,89 @@
+#contant {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    width: 1080px;
+    height: 180px;
+    background-color: white;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    text-align: end;
+    justify-content: space-between;
+}
+
+#side {
+    display: flex;
+    background-color: #87CEFA;
+    width: 181px;
+    height: auto;
+    display: inline-table;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-right: -90px;
+    transform: rotate(270deg);
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: bold;
+}
+
+#contantClinic {
+    margin-left: -5px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#name {
+    display: inline-table;
+    font-weight: bold;
+    margin-right: -5px;
+    margin-left: 25px;
+}
+
+#cepEmail {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 60px;
+    font-size: 13px;
+    font-weight: bold;
+    color: gray;
+}
+
+#cep {
+    margin-left: 10px;
+}
+
+#email {
+    margin-left: 10px;
+}
+
+#services {
+    margin-right: -200px;
+    margin-top: 10px;
+    background-color: #66CDAA;
+    height: 30px;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#contact {
+    margin-right: 20px;
+    margin-top: 35px;
+    background-color: #87CEFA;
+    display: inline-table;
+    padding: 40px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
